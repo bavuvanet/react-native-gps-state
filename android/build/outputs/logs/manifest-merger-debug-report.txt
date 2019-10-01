@@ -1,0 +1,51 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/bavv/bav/2018/virobo/CaptainEye/node_modules/react-native-gps-state/android/src/main/AndroidManifest.xml:1:1-13:12
+INJECTED from /Users/bavv/bav/2018/virobo/CaptainEye/node_modules/react-native-gps-state/android/src/main/AndroidManifest.xml:1:1-13:12
+INJECTED from /Users/bavv/bav/2018/virobo/CaptainEye/node_modules/react-native-gps-state/android/src/main/AndroidManifest.xml:1:1-13:12
+INJECTED from /Users/bavv/bav/2018/virobo/CaptainEye/node_modules/react-native-gps-state/android/src/main/AndroidManifest.xml:1:1-13:12
+INJECTED from /Users/bavv/bav/2018/virobo/CaptainEye/node_modules/react-native-gps-state/android/src/main/AndroidManifest.xml:1:1-13:12
+INJECTED from /Users/bavv/bav/2018/virobo/CaptainEye/node_modules/react-native-gps-state/android/src/main/AndroidManifest.xml:1:1-13:12
+INJECTED from /Users/bavv/bav/2018/virobo/CaptainEye/node_modules/react-native-gps-state/android/src/main/AndroidManifest.xml:1:1-13:12
+	package
+		ADDED from /Users/bavv/bav/2018/virobo/CaptainEye/node_modules/react-native-gps-state/android/src/main/AndroidManifest.xml:3:11-48
+		INJECTED from /Users/bavv/bav/2018/virobo/CaptainEye/node_modules/react-native-gps-state/android/src/main/AndroidManifest.xml
+		INJECTED from /Users/bavv/bav/2018/virobo/CaptainEye/node_modules/react-native-gps-state/android/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/bavv/bav/2018/virobo/CaptainEye/node_modules/react-native-gps-state/android/src/main/AndroidManifest.xml
+		ADDED from /Users/bavv/bav/2018/virobo/CaptainEye/node_modules/react-native-gps-state/android/src/main/AndroidManifest.xml:1:1-13:12
+		INJECTED from /Users/bavv/bav/2018/virobo/CaptainEye/node_modules/react-native-gps-state/android/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/bavv/bav/2018/virobo/CaptainEye/node_modules/react-native-gps-state/android/src/main/AndroidManifest.xml
+		ADDED from /Users/bavv/bav/2018/virobo/CaptainEye/node_modules/react-native-gps-state/android/src/main/AndroidManifest.xml:1:1-13:12
+		INJECTED from /Users/bavv/bav/2018/virobo/CaptainEye/node_modules/react-native-gps-state/android/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/bavv/bav/2018/virobo/CaptainEye/node_modules/react-native-gps-state/android/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/bavv/bav/2018/virobo/CaptainEye/node_modules/react-native-gps-state/android/src/main/AndroidManifest.xml:5:2-76
+	android:name
+		ADDED from /Users/bavv/bav/2018/virobo/CaptainEye/node_modules/react-native-gps-state/android/src/main/AndroidManifest.xml:5:19-73
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /Users/bavv/bav/2018/virobo/CaptainEye/node_modules/react-native-gps-state/android/src/main/AndroidManifest.xml:6:2-78
+	android:name
+		ADDED from /Users/bavv/bav/2018/virobo/CaptainEye/node_modules/react-native-gps-state/android/src/main/AndroidManifest.xml:6:19-75
+application
+ADDED from /Users/bavv/bav/2018/virobo/CaptainEye/node_modules/react-native-gps-state/android/src/main/AndroidManifest.xml:7:2-11:16
+	android:supportsRtl
+		ADDED from /Users/bavv/bav/2018/virobo/CaptainEye/node_modules/react-native-gps-state/android/src/main/AndroidManifest.xml:8:15-41
+	android:label
+		ADDED from /Users/bavv/bav/2018/virobo/CaptainEye/node_modules/react-native-gps-state/android/src/main/AndroidManifest.xml:7:15-47
+uses-sdk
+INJECTED from /Users/bavv/bav/2018/virobo/CaptainEye/node_modules/react-native-gps-state/android/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/bavv/bav/2018/virobo/CaptainEye/node_modules/react-native-gps-state/android/src/main/AndroidManifest.xml
+INJECTED from /Users/bavv/bav/2018/virobo/CaptainEye/node_modules/react-native-gps-state/android/src/main/AndroidManifest.xml
+INJECTED from /Users/bavv/bav/2018/virobo/CaptainEye/node_modules/react-native-gps-state/android/src/main/AndroidManifest.xml
+INJECTED from /Users/bavv/bav/2018/virobo/CaptainEye/node_modules/react-native-gps-state/android/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/bavv/bav/2018/virobo/CaptainEye/node_modules/react-native-gps-state/android/src/main/AndroidManifest.xml
+		ADDED from /Users/bavv/bav/2018/virobo/CaptainEye/node_modules/react-native-gps-state/android/src/main/AndroidManifest.xml
+		INJECTED from /Users/bavv/bav/2018/virobo/CaptainEye/node_modules/react-native-gps-state/android/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/bavv/bav/2018/virobo/CaptainEye/node_modules/react-native-gps-state/android/src/main/AndroidManifest.xml
+		ADDED from /Users/bavv/bav/2018/virobo/CaptainEye/node_modules/react-native-gps-state/android/src/main/AndroidManifest.xml
+		INJECTED from /Users/bavv/bav/2018/virobo/CaptainEye/node_modules/react-native-gps-state/android/src/main/AndroidManifest.xml
