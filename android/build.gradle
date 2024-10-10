@@ -9,18 +9,19 @@ def computeVersionName() {
 
 buildscript {
     repositories {
-        jcenter()
+        google()
+        mavenCentral()
     }
 
     dependencies {
-        classpath 'com.android.tools.build:gradle:2.2.3'
+        classpath 'com.android.tools.build:gradle:4.2.2'
     }
 }
 
 apply plugin: 'com.android.library'
 
-def DEFAULT_COMPILE_SDK_VERSION = 26
-def DEFAULT_TARGET_SDK_VERSION = 26
+def DEFAULT_COMPILE_SDK_VERSION = 30
+def DEFAULT_TARGET_SDK_VERSION = 30
 def DEFAULT_BUILD_TOOLS_VERSION = "28.0.3"
 
 android {
@@ -33,12 +34,24 @@ android {
         versionCode 1
         versionName computeVersionName()
     }
+
+    buildTypes {
+        debug {
+            minifyEnabled false
+        }
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
     lintOptions {
         abortOnError false
     }
 }
 
 repositories {
+    google()
     mavenCentral()
     maven {
         url "$projectDir/../../react-native/android"
@@ -46,8 +59,8 @@ repositories {
 }
 
 dependencies {
-    compile "com.facebook.react:react-native:+"  // From node_modules
-    compile 'com.android.support:appcompat-v7:26.1.0'
+    implementation "com.facebook.react:react-native:+"  // From node_modules
+    implementation 'com.android.support:appcompat-v7:26.1.0'
     /*androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
         exclude group: 'com.android.support', module: 'support-annotations'
     })*/
